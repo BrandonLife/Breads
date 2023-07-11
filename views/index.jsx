@@ -13,6 +13,9 @@ function Index({ breads }) {
     <Default>
       <h2>Index Page</h2>
       <ul>{breadDisplay}</ul>
+      <div>
+        <a href="/breads/new"><button>Add a new bread</button></a>
+      </div>
     </Default>
   );
 }
